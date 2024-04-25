@@ -1,0 +1,6 @@
+Teoretický úvod
+ Výpočet inverzní úlohy kinematiky může být pro některé typy manipulátorů složitý kvůli velkému množství trigonometrických funkcí, jako jsou sinus, kosinus a tangens. V rámci tohoto projektu jsem se pokusil zjednodušit výpočet natočení kloubu pomocí fuzzy logiky. Fuzzy logika nepoužívá goniometrické funkce, což znamená, že její výpočet je pro procesory jednodušší a rychlejší.
+
+Řešení
+ S ohledem na počet vstupních veličin by bylo příliš obtížné předdefinovat fuzzy logiku. Proto jsem se rozhodl využít neuro-adaptivní učení fuzzy logiky (ANFIS). Tato funkce vytváří
+fuzzy množiny typu Sugeno na základě již vypočítaných hodnot.
